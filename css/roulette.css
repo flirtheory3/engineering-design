@@ -1,0 +1,26 @@
+body {
+    padding: 36px;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.circle {
+    width: 420px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 210px solid rgb(203, 203, 241);
+    border-top: 210px solid rgb(99, 87, 150);
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
