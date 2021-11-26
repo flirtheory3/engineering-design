@@ -12,11 +12,16 @@
             font-size: 30px;
             padding: 10px;
         }
+
         #content {
-            width: 100%;
+            width: 50%;
             float: right;
             height: 600px;
+            border: 10px solid lightblue;
+            float:left;
+
         }
+
         h1 {
             margin: 10px;
         }
@@ -28,20 +33,48 @@
 </head>
 <body>
     <div id="header">
-        <img src="logo.jpg" style="float:left;" width="100" height="100">
+        <img src="logo.png" style="float:left;" width="100" height="100">
         <b>
             <button><a href="detail.html" align="left">추가</a></button>
             <button><a href="login.html">로그아웃</a></button>
         </b>
     </div>
-    <hr/>
+    <hr />
     <div id="content">
-        <h1><b>할 일</b></h1>
+        <h1>[나의 할 일]</h1>
         <p>
             <ul>
-                <li>오늘의 할일 1</li><button><a href="" align="left">수정</a></button>
-                <li>오늘의 할일 2</li><button><a href="" align="left">수정</a></button>
-                <li>오늘의 할일 3</li><button><a href="" align="left">수정</a></button>
+                <li>오늘의 할일 1</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 2</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 3</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 4</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 5</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 6</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 7</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
+
+                <li>오늘의 할일 8</li>
+                <button onclick="location.href='detail.html'" align="left">수정</button>
+                <button><a href="" align="left">인증</a></button>
             </ul>
         </p>
 

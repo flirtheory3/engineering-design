@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        #login_wrapper {
+            border: 20px solid lightblue;
+            padding: 5px 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 250px;
+            width: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: -200px;
+            margin-top: -150px;
+        }
+
+        h1 {
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+
+        .form {
+            width: 300px;
+        }
+
+            .form > div {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 7px;
+                align-items: center;
+            }
+
+        label {
+            flex: 1;
+            text-align: left;
+        }
+
+        button {
+            width: 85px;
+            float: right;
+            padding: 3px;
+        }
+
+        input {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="login_wrapper">
+        <h1>로그인</h1>
+        <form action="login" method="POST" class="form">
+            <div>
+                <label>아이디</label>
+                <input type="text" id="id" name="id" maxlength="20" placeholder="username" required />
+            </div>
+            <div>
+                <label>비밀번호</label>
+                <input type="password" id="pwd" name="pwd" maxlength="20" placeholder="password" required />
+
+            </div>
+            <button onclick="location.href='main.html'" type="submit" id="btn_login">로그인</button>
+            <button onclick="location.href='signup.html'" type="submit" id="btn_signup">회원가입</button>
+
+        </form>
+    </div>
+</body>
+</html>
