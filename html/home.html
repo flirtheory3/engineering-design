@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        #header {
+            width: 100%;
+            height: 100px;
+            font-size: 20px;
+            padding: 10px;
+           
+        }
+
+        #content {
+            width: 50%;
+            height: 700px;
+            border: 10px solid lightblue;
+            float: left;
+            font-size: 17px;
+        }
+
+        h1 {
+            margin: 10px;
+            text-align: center;
+        }
+
+        p {
+            margin: 12px;
+        }
+        #btn{
+            background-color:rgba(0,0,0,0);
+            color:black;
+            padding:4px;
+            border-radius :5px;
+        }
+        #btn2{
+            background-color: rgba(0,0,0,0);
+            color: black;
+            padding: 4px;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+        li{font-size: 20px; margin:5px;}
+
+        a:link {
+            text-decoration:none;
+        }
+        a:visited{color:black;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <img src="logo.png" style="float:left;" width="100" height="100">
+            <b>
+                <button id="btn" style="position:absolute; right:5%;"><a href="login.html">로그아웃</a></button>
+            </b>
+        </div>
+        <hr />
+        <div id="content">
+            <h1>나의 할 일</h1>
+            <button id="btn2" style="position:absolute; right:55%; top: 25%;" font-size:50px;><a href="detail.html" align="left">추가</a></button>
+            <p>
+                <ul>
+                    <li>오늘의 할일 1</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 2</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 3</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 4</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 5</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 6</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 7</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+
+                    <li>오늘의 할일 8</li>
+                    <button id="btn" onclick="location.href='detail.html'" align="left">수정</button>
+                    <button id="btn"><a href="detail2.html" align="left">인증</a></button>
+                </ul>
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
