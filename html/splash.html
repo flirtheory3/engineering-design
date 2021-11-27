@@ -2,50 +2,26 @@
 <html>
 <head>
     <title>Splash</title>
+    <link rel="stylesheet" href="../css/splash.css" >
     <style>
-        #box {
-            border: 10px solid lightblue;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            height: 250px;
-            width: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-left: -200px;
-            margin-top: -150px;
-        }
-
-        .btn-group:after {
-            content: "";
-            clear: both;
-        }
-
-        .btn-group button:hover {
-            background-color: tomato;
-        }
-
-
-        .a button {
-            width: 120px;
-            height: 100px;
-            left: 5px;
-            font-weight:600;
+        #title_box{
+            text-align: center;
+           
+            
         }
     </style>
-
 
 </head>
 
 <body>
-    <div id="box">
-        <div class="btn-group a">
-            <button onclick="location.href='roulette.html'">ø¿¥√ ππ«œ¡ˆ?</button>
+    <div class="container">
+        <div id="title_box">
+             <h1>What to do?</h1>
         </div>
-        <div class="btn-group a">
-            <button onclick="location.href='login.html'"> ø¿¥√¿« «“¿œ!</button>
-        </div>
-        </div>
+
+        <a class="btn" href="roulette.html">ø¿¥√ ππ«œ¡ˆ?</a>
+        <a class="btn" href="login.html">ø¿¥√¿« «“¿œ!</a>
+
+    </div>
 </body>
 </html>
