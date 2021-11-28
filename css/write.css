@@ -1,0 +1,24 @@
+.header {
+    width: 98%;
+    height: 100px;
+    text-align: right;
+    font-size: 30px;
+    padding: 10px;
+}
+fieldset {
+    width: 90%;
+    height: 600px;
+    float:left;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid lightblue;
+}
+#targret {
+    margin: 20px;
+    padding: 20px;
+    background-color:lightgreen;
+}
+a {
+    color: #000000;
+    text-decoration:none;
+}
