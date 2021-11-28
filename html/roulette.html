@@ -8,13 +8,22 @@
 </head>
 <body>
     <div class="container">
-<div class="box-roulette">
-	<div class="markers"></div>
-	<button type="button" id="btn-start">
-		오늘 뭐하지?
-	</button>
-	<div class="roulette" id="roulette"></div>
-</div>
+        <nav class="nav">
+            <img src="logo.png" style="float:left;" width="60" height="60">
+            <a class="header" aria-current="page" href="main.html">오늘 뭐하지?</a>
+            <div class="btnGroup" style="margin-left: auto;">
+                <a class="chkBtn" type="button" onclick="location.href='login.html'">로그인</a>
+            </div>
+        </nav>
+        <div class="content">
+            <h2 style="text-align: center; font-weight: bold;">룰렛을 돌려보세요!</h2>
+            <div class="box-roulette">
+                <div class="markers"></div>
+                <button type="button" id="btn-start">
+                    오늘 뭐하지?</button>
+                <div class="roulette"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
