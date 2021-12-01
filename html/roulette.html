@@ -13,6 +13,9 @@
         font-family: 'Gowun Dodum', sans-serif;
       }
     </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script defer src="js/roulette.js"></script>
 </head>
 <body>
     <div class="container">
@@ -25,11 +28,15 @@
         </nav>
         <div class="content">
             <h2 style="text-align: center; font-weight: bold;">룰렛을 돌려보세요!</h2>
-            <div class="box-roulette">
-                <div class="markers"></div>
-                <button type="button" id="btn-start">
-                    오늘 뭐하지?</button>
-                <div class="roulette"></div>
+            <div id="wrap">
+                <div id="gameContainer">
+                    <div class="board_start join">시작 버튼</div>
+                    <div class="board_on obj"></div>
+                </div>
+                <div id="popup_gift" class="popup">
+                    <div class="lottery_present"></div>
+                    <a href="javascript:;" class="close">닫기</a>
+                </div>
             </div>
         </div>
     </div>
