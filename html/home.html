@@ -16,7 +16,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="flex: 1; min-height: 100%;" >
         <nav class="nav">
             <img src="logo.png" style="float:left;" width="60" height="60">
             <a class="header" aria-current="page" href="home.html">오늘 뭐하지?</a>
@@ -43,13 +43,10 @@
                         <a class="category_item" href="home_star.html">중요한 할 일</a>
                     </div>
                     <div class="category_item">
-                        <a class="category_item" href="#">전체 할 일 조회</a>
+                        <a class="category_item" href="home_all.html">전체 할 일 조회</a>
                     </div>
                 </div>
                 <div class="category_section_item">
-                    <div class="category_item">
-                        <a class="category_item" href="#">알림 설정</a>
-                    </div>
                     <div class="category_item">
                         <a class="category_item" href="home_payback.html">회수한 돈 확인</a>
                     </div>
@@ -125,7 +122,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">한강에서 따릉이 타면서 이번년도 정리 및 되돌아보기</h5>
-                                    <p class="card-text">10,000원</p>
+                                    <p class="card-text" style="display: flex; align-items: center;">
+                                        10,000원&nbsp&nbsp|&nbsp&nbsp오후 5:00&nbsp
+                                        <span class="material-icons md-18" style=" font-size: 18px;">notifications</span></p>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -149,7 +148,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">공학설계입문 최종 프로젝트 발표 잘 마무리하기</h5>
-                                    <p class="card-text">15,000원</p>
+                                    <p class="card-text" style="display: flex; align-items: center;">
+                                        15,000원&nbsp&nbsp|&nbsp&nbsp오후 10:00&nbsp
+                                        <span class="material-icons md-18" style=" font-size: 18px;">notifications</span></p>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -162,9 +163,9 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            공학설계입문 2-1 큰일났다!! 조
-        </div>
+    </div>
+    <div class="footer">
+        공학설계입문 2-1 큰일났다!! 조
     </div>
 
     <script>

@@ -40,10 +40,10 @@
                         <a class="category_item" href="home.html">오늘의 할 일</a>
                     </div>
                     <div class="category_item">
-                        <a class="category_item" href="home_star.html" style="color: rgba(223,190,106,0.7);">중요한 할 일</a>
+                        <a class="category_item" href="home_star.html">중요한 할 일</a>
                     </div>
                     <div class="category_item">
-                        <a class="category_item" href="home_all.html">전체 할 일 조회</a>
+                        <a class="category_item" href="home_all.html" style="color: rgba(223,190,106,0.7);">전체 할 일 조회</a>
                     </div>
                 </div>
                 <div class="category_section_item">
@@ -59,31 +59,36 @@
         <div class="content">
             <div>
                 <h3 style="font-weight: bold; float: left; margin-right: 16px;">
-                    중요한 할 일</h3>
+                    전체 할 일 조회</h3>
                 <p style="padding: 6px;">&nbsp</p>
             </div>
             <div class="content_section">
                 <div class="content_item">
                     <div class="card w-90" style="background-color: transparent;">
                         <div class="row">
-                            <div class="col-md-1">
-                                <div class="contentBtnGroup">
-                                    <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span>
+                            <div class="col-md-2">
+                                <div class="date">
+                                    <p id="today"></p>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body">
-                                    <h5 class="card-title">라플라스의 마녀 책 완독하기</h5>
-                                    <p class="card-text">
-                                        <span id=today></span>&nbsp&nbsp|&nbsp&nbsp8,000원
-                                    </p>
+                                    <h5 class="card-title" style="margin-bottom: 16px; display: flex; align-items: center;">
+                                        라플라스의 마녀 책 완독하기&nbsp
+                                        <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span></h5>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">백준 2631 DP 알고리즘 문제 풀기 및 정리하기</h5>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">한강에서 따릉이 타면서 이번년도 정리 및 되돌아보기</h5>
+                                    <h5 class="card-title" style="display: flex; align-items: center;">
+                                        공학설계입문 최종 프로젝트 발표 잘 마무리하기&nbsp
+                                        <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span></h5>
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <div class="contentBtnGroup">
-                                    <a class="chkBtn2" href="certification.html">인증</a>
-                                    <a class="chkBtn2" href="modify.html" style="margin-left: 12px;">수정</a>
-                                    <a class="chkBtn2" href="home_star.html" onclick="alert('해당 할 일을 삭제하시겠습니까?')" style="margin-left: 12px;">삭제</a>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">8,000원</h5>
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">3,000원</h5>
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">10,000원</h5>
+                                    <h5 class="card-title" style="text-align: center;">15,000원</h5>
                                 </div>
                             </div>
                         </div>
@@ -92,22 +97,25 @@
                 <div class="content_item">
                     <div class="card w-90" style="background-color: transparent;">
                         <div class="row">
-                            <div class="col-md-1">
-                                <div class="contentBtnGroup">
-                                    <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span>
+                            <div class="col-md-2">
+                                <div class="date">
+                                    <p id="yesterday"></p>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body">
-                                    <h5 class="card-title">공학설계입문 최종 프로젝트 발표 잘 마무리하기</h5>
-                                    <p class="card-text">
-                                        <span id=today2></span>&nbsp&nbsp|&nbsp&nbsp15,000원
-                                    </p>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">고급객체지향프로그래밍 과제 제출하기</h5>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">자격증 시험 신청하기</h5>
+                                    <h5 class="card-title" style="display: flex; align-items: center;">
+                                        동아리 지원서 작성 및 제출하기&nbsp
+                                        <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span></h5>
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <div class="contentBtnGroup">
-                                    <button class="chkBtn3">할 일 완료</button>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">10,000원</h5>
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">15,000원</h5>
+                                    <h5 class="card-title" style="text-align: center;">20,000원</h5>
                                 </div>
                             </div>
                         </div>
@@ -116,22 +124,27 @@
                 <div class="content_item">
                     <div class="card w-90" style="background-color: transparent;">
                         <div class="row">
-                            <div class="col-md-1">
-                                <div class="contentBtnGroup">
-                                    <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span>
+                            <div class="col-md-2">
+                                <div class="date">
+                                    <p id="twodays"></p>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body">
-                                    <h5 class="card-title">동아리 지원서 작성 및 제출하기</h5>
-                                    <p class="card-text">
-                                        <span id=yesterday></span>&nbsp&nbsp|&nbsp&nbsp20,000원
-                                    </p>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">교보문고에서 다음달 읽을 책 구매하기</h5>
+                                    <h5 class="card-title" style="margin-bottom: 16px;">교보문고에서 내년 다이어리 구매하기</h5>
+                                    <h5 class="card-title" style="margin-bottom: 16px; display: flex; align-items: center;">
+                                        <div style="text-decoration: line-through;">알고리즘 DFS & BFS 정리하기</div>&nbsp
+                                        <span class="material-icons" style="color: rgba(223,190,106,0.7);">star</span></h5>
+                                    <h5 class="card-title" style="text-decoration: line-through;">프로그래머스 코테연습 [메뉴 리뉴얼] 문제 풀기</h5>
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <div class="contentBtnGroup">
-                                    <button class="chkBtn3">할 일 완료</button>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">10,000원</h5>
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">2,000원</h5>
+                                    <h5 class="card-title" style="text-align: center; margin-bottom: 16px;">10,000원</h5>
+                                    <h5 class="card-title" style="text-align: center;">5,000원</h5>
                                 </div>
                             </div>
                         </div>
@@ -140,22 +153,19 @@
                 <div class="content_item">
                     <div class="card w-90" style="background-color: transparent;">
                         <div class="row">
-                            <div class="col-md-1">
-                                <div class="contentBtnGroup">
-                                    <span class="material-icons" style="color: rgba(223,190,106,0.7)">star</span>
+                            <div class="col-md-2">
+                                <div class="date">
+                                    <p id="threedays"></p>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="card-body">
-                                    <h5 class="card-title">알고리즘 DFS & BFS 정리하기</h5>
-                                    <p class="card-text">
-                                        <span id=twodays></span>&nbsp&nbsp|&nbsp&nbsp10,000원
-                                    </p>
+                                    <h5 class="card-title">일주일 내 날짜로 오픽 시험 접수하기</h5>
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <div class="contentBtnGroup">
-                                    <button class="chkBtn3">기부 완료</button>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">8,000원</h5>
                                 </div>
                             </div>
                         </div>
@@ -164,13 +174,12 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer2">
         공학설계입문 2-1 큰일났다!! 조
     </div>
 
     <script>
         document.getElementById("today").innerHTML=getToday();
-        document.getElementById("today2").innerHTML=getToday();
         function getToday(){
             var date = new Date();
             var year = date.getFullYear();
@@ -192,6 +201,14 @@
             var year = date.getFullYear();
             var month = ("0" + (1 + date.getMonth())).slice(-2);
             var day = ("0" + (date.getDate()-2)).slice(-2);
+            return year + "/" + month + "/" + day;
+        }
+        document.getElementById("threedays").innerHTML=getThreedays();
+        function getThreedays(){
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = ("0" + (1 + date.getMonth())).slice(-2);
+            var day = ("0" + (date.getDate()-3)).slice(-2);
             return year + "/" + month + "/" + day;
         }
     </script>
