@@ -58,7 +58,7 @@ img{width:100%;}
 #wrap #gameContainer .board_bg{width:508px; height:508px; top:40px; left:0px; z-index: 2;}
 #wrap #gameContainer .board_bg img{width:100%;}
 #wrap #gameContainer .board_on{width:508px; height:508px; top:40px; left:0px; z-index: 3;
-    background-image: url('//img.babathe.com/upload/specialDisplay/htmlImage/2019/test/roulette_circle_bg.png');
+    background-image: url('../roulette.png');
     background-size: 508px;
 }
 #wrap #gameContainer .board_on p{position:absolute; width:100px;top:115px; height:100px;color:rgba(80, 61, 28);font-weight: bold;}
